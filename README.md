@@ -1,6 +1,15 @@
 # go-paybysquare
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/kravemir/go-paybysquare.svg)](https://pkg.go.dev/github.com/kravemir/go-paybysquare)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kravemir/go-paybysquare)](https://goreportcard.com/report/github.com/kravemir/go-paybysquare)
+
 Golang library implementing generation of PAY by square QR codes.
+
+## Structure
+
+- [bsqr](bsqr) - BySquare QR code string encoding,
+- [bsqrbuilder](bsqrbuilder) - builder for BSQR strings,
+- [image](image) - image generation.
 
 ## Usage
 
